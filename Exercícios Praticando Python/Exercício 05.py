@@ -18,9 +18,8 @@ def gerar_senha():
     ]
  
     todos_caracteres = maiusculas + minusculas + numeros + especiais
-    senha.extend(random.choices(todos_caracteres, k=8))
+    senha.extend(random.choices(todos_caracteres, k=12))
     random.shuffle(senha)
     return ''.join(senha)
 
 print(f"Senha gerada: {gerar_senha()}")
-#teste teste
