@@ -23,3 +23,4 @@ def gerar_senha():
     return ''.join(senha)
 
 print(f"Senha gerada: {gerar_senha()}")
+#teste teste
